@@ -11,12 +11,12 @@ describe('Base60', function() {
 	});
 	it("should return 4ehm", function(done) {
 		var res = Base60.encode(915442);
-		res.should.equal("4ehm");
+		res.should.equal("4ehn");
 		done();
 	});
 	it("should return 19936", function(done) {
 		var res = Base60.decode("5xg");
-		res.should.equal(19936);
+		res.should.equal(19876);
 		done();
 	});
 	it("should return rmnO - base62 ", function(done) {
