@@ -1,5 +1,5 @@
 module.exports = (function(Base60) {
-	var DEFAULT_CHARACTER_SET = "0123456789abcdefghijklmnpqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ";
+	var DEFAULT_CHARACTER_SET = "0123456789abcdefghijkmnpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ_-";
 	var s, val, base60Chars;
 	Base60.encode = function(integer) {
 		s = '';
